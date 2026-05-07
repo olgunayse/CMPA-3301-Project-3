@@ -1,119 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Caelus Air | Home</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caelus Air</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+  </head>
+  <body>
 
-<header>
-  <div class="wrapper header-flex">
-    <h1 class="site-title">Caelus Air</h1>
+    <header class="site-header">
+      <nav class="nav">
+        <a href="index.html" class="nav-logo">CAELUS AIR</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-    </nav>
-  </div>
-</header>
+    <main>
 
-<main>
-
-  <section class="hero">
-    <div class="wrapper">
-      <p class="eyebrow">Fly Beyond the Ordinary</p>
-      <h2>Comfortable flights to places worth remembering.</h2>
-      <p>
-        Caelus Air is a fictional airline created for travelers who want a smooth,
-        calm, and memorable experience from takeoff to arrival.
-      </p>
-      <a class="button" href="about.html">Explore Our Story</a>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="wrapper">
-      <p class="eyebrow">Destinations</p>
-      <h2>Plan your next escape.</h2>
-
-      <div class="destinations">
-        <div class="destination">
-          <h3>Barcelona</h3>
-          <p>
-            Fly into a city known for warm coastlines, detailed architecture,
-            late evenings, and colorful streets.
-          </p>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-content">
+          <p class="hero-tagline">Where Every Journey Begins</p>
+          <h1 class="hero-title">Fly Beyond<br>the Horizon</h1>
+          <p class="hero-sub">Caelus Air believes that getting there is part of the adventure.</p>
+          <a href="about.html" class="btn">Discover Our Story</a>
         </div>
+      </section>
 
-        <div class="destination">
-          <h3>Tokyo</h3>
-          <p>
-            Experience a city where bright skylines, quiet traditions,
-            shopping districts, and unforgettable food come together.
-          </p>
+      <!-- Destinations Section -->
+      <section class="destinations">
+        <div class="container">
+          <h2 class="section-title">Featured Destinations</h2>
+          <p class="section-subtitle">A few of the places we love to take you.</p>
+          <div class="dest-grid">
+            <article class="dest-card">
+              <div class="dest-img dest-img--kyoto"></div>
+              <div class="dest-info">
+                <h3>Kyoto, Japan</h3>
+                <p>Ancient temples, bamboo forests, and timeless ceremony await in Japan's cultural heart.</p>
+              </div>
+            </article>
+            <article class="dest-card">
+              <div class="dest-img dest-img--lisbon"></div>
+              <div class="dest-info">
+                <h3>Lisbon, Portugal</h3>
+                <p>Cobblestone hills, golden light, and the soulful sound of fado fill this coastal city.</p>
+              </div>
+            </article>
+            <article class="dest-card">
+              <div class="dest-img dest-img--patagonia"></div>
+              <div class="dest-info">
+                <h3>Patagonia, Argentina</h3>
+                <p>The edge of the world — dramatic peaks, glaciers, and wilderness without end.</p>
+              </div>
+            </article>
+          </div>
         </div>
+      </section>
 
-        <div class="destination">
-          <h3>Istanbul</h3>
-          <p>
-            Travel to a city that connects Europe and Asia through history,
-            culture, sea views, and a lively atmosphere.
-          </p>
+      <!-- Why Fly With Us Section -->
+      <section class="why">
+        <div class="container">
+          <h2 class="section-title">Why Fly With Us</h2>
+          <div class="why-grid">
+            <div class="why-card">
+              <span class="why-icon">✦</span>
+              <h3>Curated Routes</h3>
+              <p>We fly to destinations chosen for their character, not just their popularity.</p>
+            </div>
+            <div class="why-card">
+              <span class="why-icon">✦</span>
+              <h3>Unhurried Travel</h3>
+              <p>Our philosophy: arriving well-rested and genuinely excited to explore.</p>
+            </div>
+            <div class="why-card">
+              <span class="why-icon">✦</span>
+              <h3>The Caelus Promise</h3>
+              <p>Every flight is a commitment to comfort, honesty, and a little bit of wonder.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </section>
+      </section>
 
-  <section class="section why-section">
-    <div class="wrapper">
-      <p class="eyebrow">On Board</p>
-      <h2>A better flight starts with a calmer experience.</h2>
-      <p>
-        Caelus Air focuses on clear service, comfortable cabins, and a simple
-        travel experience. The goal is to make each trip feel organized,
-        welcoming, and easy to enjoy.
-      </p>
-    </div>
-  </section>
+    </main>
 
-  <section class="section">
-    <div class="wrapper two-column">
-      <div>
-        <p class="eyebrow">Cabin Comfort</p>
-        <h3>Room to settle in.</h3>
-        <p>
-          Our airline concept is centered around a peaceful cabin environment,
-          simple seating, and small details that make the flight feel smoother.
-        </p>
-      </div>
+    <footer class="site-footer">
+      <p>© 2026 Caelus Air. A fictional airline. All rights reserved.</p>
+    </footer>
 
-      <div>
-        <p class="eyebrow">Travel Made Simple</p>
-        <h3>Less stress before takeoff.</h3>
-        <p>
-          Caelus Air is designed around clear information, easy navigation,
-          and a travel brand that feels reliable from the first visit.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <section class="section closing-section">
-    <div class="wrapper">
-      <p class="eyebrow">Caelus Air</p>
-      <h2>Where every journey begins with a smoother sky.</h2>
-    </div>
-  </section>
-
-</main>
-
-<footer>
-  <div class="wrapper">
-    <p>&copy; 2026 Caelus Air. Fictional airline website created for Project 03.</p>
-  </div>
-</footer>
-
-</body>
+  </body>
 </html>
