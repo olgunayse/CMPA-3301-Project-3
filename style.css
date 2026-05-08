@@ -116,43 +116,43 @@ p {
 
 .search-bar {
   margin-top: 36px;
-  max-width: 900px;
-  background-color: #13132b;
-  border: 1px solid rgba(201, 169, 110, 0.2);
+  max-width: 1050px;
+  background-color: #f7f7f7;
+  border-radius: 18px;
+  padding: 16px;
   display: flex;
   align-items: center;
-  overflow: hidden;
+  gap: 10px;
 }
 
 .search-item {
-  flex: 1;
   padding: 12px 18px;
-  border-right: 1px solid rgba(201, 169, 110, 0.15);
-}
-
-.search-item span {
-  display: block;
-  color: #c9a96e;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-size: 9px;
-  margin-bottom: 2px;
+  color: #5c6570;
+  font-size: 18px;
 }
 
 .search-item p {
   margin: 0;
   max-width: none;
-  color: #f0ede8;
-  font-size: 15px;
+}
+
+.swap-icon {
+  color: #c9a96e;
+  font-size: 26px;
+}
+
+.travelers {
+  color: #1f1f1f;
 }
 
 .search-button {
-  padding: 18px 26px;
+  margin-left: auto;
   background-color: #c9a96e;
   color: #0d0d1a;
+  padding: 18px 30px;
+  border-radius: 14px;
   font-weight: bold;
-  font-size: 14px;
-  letter-spacing: 1px;
+  font-size: 18px;
 }
 
 .button {
@@ -286,18 +286,14 @@ footer p {
   }
 
   .search-bar {
-    flex-direction: column;
-    align-items: stretch;
-  }
+  flex-direction: column;
+  align-items: stretch;
+}
 
-  .search-item {
-    border-right: none;
-    border-bottom: 1px solid rgba(201, 169, 110, 0.2);
-  }
-
-  .search-button {
-    text-align: center;
-  }
+.search-button {
+  margin-left: 0;
+  text-align: center;
+}
 
   .route-row {
     flex-direction: column;
