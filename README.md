@@ -1,12 +1,16 @@
 # Caelus Air Official Website
 
-Caelus Air is a fictional airline website created for Project 03. The project combines project management documentation with a two-page website prototype to show how a digital project can move from planning to a finished technical artifact.
+Caelus Air is a fictional airline website created for CMPA 3301 Project 03. The project combines project management documentation with a two-page website prototype to show how a digital project can move from planning to a finished technical artifact.
 
 The website presents a simple airline brand focused on adventure, comfort, and memorable travel experiences. It includes a homepage, an about page, and one shared stylesheet for consistent design.
 
 ## Live Website
 
-Add GitHub Pages link here after deployment.
+https://olgunayse.github.io/CMPA-3301-Project-3/
+
+## GitHub Repository
+
+https://github.com/olgunayse/CMPA-3301-Project-3
 
 ## Project Documents
 
@@ -19,6 +23,15 @@ Add GitHub Pages link here after deployment.
 - [Home Page](index.html)
 - [About Page](about.html)
 - [Stylesheet](style.css)
+
+## Repository Structure
+
+- `index.html`: homepage for the Caelus Air website
+- `about.html`: second page explaining the concept behind Caelus Air
+- `style.css`: shared external stylesheet for both pages
+- `docs/scope.md`: project scope statement
+- `docs/plan.md`: project plan with TAME risk analysis and task schedule
+- `docs/retrospective.md`: final reflection on the project process
 
 ## Project Goals
 
@@ -34,6 +47,7 @@ Add GitHub Pages link here after deployment.
 - CSS
 - Markdown
 - GitHub
+- GitHub Pages
 
 ## Author
 

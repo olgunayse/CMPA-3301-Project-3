@@ -4,6 +4,8 @@
 
 The goal of this project is to create a complete proposal package for Caelus Air, a fictional airline website. The final repository will include project management documentation, a two-page website prototype, and a professional README that connects the technical work to the planning process.
 
+This plan helps organize the project before and during the build. It includes a Work Breakdown Structure, a TAME risk analysis, key deliverables, and a quality checklist.
+
 ## Work Breakdown Structure
 
 | Task | Description | Estimated Completion |
@@ -16,7 +18,8 @@ The goal of this project is to create a complete proposal package for Caelus Air
 | 6. Style website | Add consistent styling through `style.css`. | May 7, 2026 |
 | 7. Complete documentation | Finish `scope.md`, `plan.md`, `retrospective.md`, and `README.md`. | May 7, 2026 |
 | 8. Review and test | Check links, spelling, file structure, and visual consistency. | May 7, 2026 |
-| 9. Submit project | Submit the public GitHub repository link. | May 8, 2026 |
+| 9. Deploy GitHub Pages | Publish the live website and verify that the live link works correctly. | May 8, 2026 |
+| 10. Submit project | Submit the public GitHub repository link through Canvas and email backup. | May 8, 2026 |
 
 ## TAME Risk Analysis
 
@@ -26,8 +29,14 @@ The TAME framework helps organize project risks by thinking about Time, Ability,
 |---|---|---|---|
 | Time | Waiting too long to finish the documentation or styling. | The final project could feel rushed or incomplete. | Use a simple task schedule and complete the highest-priority requirements first. |
 | Ability | HTML, CSS, or GitHub Pages issues may slow down progress. | The website may not display correctly or the repository may not be ready for submission. | Keep the website simple, test each page, and focus on meeting the required technical elements. |
-| Money/Materials | No paid tools or outside materials are needed. | Low risk because the project uses free tools. | Use HTML, CSS, Markdown, and GitHub only. |
+| Money/Materials | No paid tools or outside materials are needed. | Low risk because the project uses free tools. | Use HTML, CSS, Markdown, GitHub, and GitHub Pages only. |
 | Energy | Working on both documentation and code at the same time may feel overwhelming. | The project may lose focus or quality. | Break the work into smaller tasks and complete one deliverable at a time. |
+
+## Risk Response Strategy
+
+The main risk response for this project is to reduce uncertainty by keeping the scope realistic. The website is intentionally limited to two pages and does not include JavaScript, databases, booking tools, or live airline data. This keeps the project achievable while still meeting the assignment requirements.
+
+The project also follows the unofficial project manager mindset from PMUPM by clarifying expectations, identifying risks early, and using a task schedule to stay accountable. Planning before coding helped prevent unnecessary scope expansion and made the final build easier to manage.
 
 ## Key Deliverables
 
@@ -46,5 +55,6 @@ The TAME framework helps organize project risks by thinking about Time, Ability,
 - The website is readable on desktop and mobile screens.
 - The repository has a clear structure.
 - The README explains the project and links to the documentation.
+- The README includes the live website link.
 - The planning documents connect to the course concepts.
 - The final repository is public and ready to submit.
