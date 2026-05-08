@@ -113,20 +113,37 @@ p {
 .hero p {
   max-width: 520px;
 }
+
 .flight-box {
   margin-top: 30px;
-  padding: 24px;
+  max-width: 700px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   border: 1px solid rgba(201, 169, 110, 0.35);
   background-color: #13132b;
-  max-width: 520px;
 }
 
-.flight-box p {
-  margin: 8px 0;
+.flight-item {
+  padding: 20px;
+  border-right: 1px solid rgba(201, 169, 110, 0.25);
 }
 
-.flight-box strong {
+.flight-item:last-child {
+  border-right: none;
+}
+
+.flight-item span {
+  display: block;
   color: #c9a96e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+.flight-item p {
+  margin: 0;
+  color: #f0ede8;
 }
 
 .button {
@@ -264,6 +281,19 @@ footer p {
   .info-grid,
   .about-grid {
     grid-template-columns: 1fr;
+  }
+
+  .flight-box {
+    grid-template-columns: 1fr;
+  }
+
+  .flight-item {
+    border-right: none;
+    border-bottom: 1px solid rgba(201, 169, 110, 0.25);
+  }
+
+  .flight-item:last-child {
+    border-bottom: none;
   }
 
   .hero {
