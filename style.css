@@ -113,6 +113,21 @@ p {
 .hero p {
   max-width: 520px;
 }
+.flight-box {
+  margin-top: 30px;
+  padding: 24px;
+  border: 1px solid rgba(201, 169, 110, 0.35);
+  background-color: #13132b;
+  max-width: 520px;
+}
+
+.flight-box p {
+  margin: 8px 0;
+}
+
+.flight-box strong {
+  color: #c9a96e;
+}
 
 .button {
   display: inline-block;
