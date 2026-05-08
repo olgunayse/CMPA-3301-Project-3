@@ -143,6 +143,7 @@ p {
 
 .flight-item p {
   margin: 0;
+  max-width: none;
   color: #f0ede8;
 }
 
