@@ -179,37 +179,31 @@ p {
   margin-bottom: 36px;
 }
 
-.destinations {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 28px;
+.route-list {
+  margin-top: 40px;
 }
 
-.destination-card {
-  border: 1px solid rgba(201, 169, 110, 0.25);
-  padding-bottom: 20px;
+.route-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+  border-bottom: 1px solid rgba(201, 169, 110, 0.2);
 }
 
-.destination-image {
-  height: 180px;
-  margin-bottom: 20px;
+.route-row h3 {
+  margin: 0 0 8px;
 }
 
-.kyoto {
-  background-color: #1a2d4a;
+.route-row p {
+  margin: 0;
+  color: #b8b4ad;
 }
 
-.lisbon {
-  background-color: #305c7d;
-}
-
-.patagonia {
-  background-color: #1a3d4f;
-}
-
-.destination-card h3,
-.destination-card p {
-  padding: 0 20px;
+.price {
+  color: #c9a96e;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .dark-section {
@@ -284,7 +278,6 @@ footer p {
     font-size: 30px;
   }
 
-  .destinations,
   .info-grid,
   .about-grid {
     grid-template-columns: 1fr;
@@ -302,6 +295,12 @@ footer p {
 
   .search-button {
     text-align: center;
+  }
+
+  .route-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
   }
 
   .hero {
