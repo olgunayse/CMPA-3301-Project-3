@@ -2,41 +2,39 @@
 
 ## Project Overview
 
-The goal of this project is to create a complete proposal package for Caelus Air, a fictional airline website. The final repository will include project management documentation, a two-page website prototype, and a professional README that connects the technical work to the planning process.
+The purpose of this project is to create a fictional airline website called Caelus Air for CMPA 3301 Project 03. The project combines project planning documents with a simple two-page website prototype to show the process of planning, organizing, and building a digital project from the beginning.
 
-This plan helps organize the project before and during the build. It includes a Work Breakdown Structure, a TAME risk analysis, key deliverables, and a quality checklist.
+The final repository includes project documentation, two HTML pages, one shared stylesheet, and a README explaining the project and repository structure.
 
 ## Work Breakdown Structure
 
 | Task | Description | Estimated Completion |
-|---|---|---|
-| 1. Define project idea | Choose the fictional airline concept and identify the purpose of the website. | April 26, 2026 |
-| 2. Write scope statement | Define the project purpose, deliverables, exclusions, constraints, and acceptance criteria. | April 26, 2026 |
-| 3. Create file structure | Set up the repository with website files and a `docs/` folder. | April 27, 2026 |
-| 4. Build homepage | Create `index.html` with a hero section, destinations, and brand message. | April 27, 2026 |
-| 5. Build about page | Create `about.html` with the project concept and purpose. | April 27, 2026 |
-| 6. Style website | Add consistent styling through `style.css`. | May 7, 2026 |
-| 7. Complete documentation | Finish `scope.md`, `plan.md`, `retrospective.md`, and `README.md`. | May 7, 2026 |
-| 8. Review and test | Check links, spelling, file structure, and visual consistency. | May 7, 2026 |
-| 9. Deploy GitHub Pages | Publish the live website and verify that the live link works correctly. | May 8, 2026 |
-| 10. Submit project | Submit the public GitHub repository link through Canvas and email backup. | May 8, 2026 |
+| --- | --- | --- |
+| Choose project idea | Decide on the airline concept and direction of the website. | April 26, 2026 |
+| Write scope statement | Complete the project scope and define the main project requirements. | April 26, 2026 |
+| Set up repository | Create the repository structure and docs folder. | April 27, 2026 |
+| Build website pages | Create the homepage and about page. | April 27, 2026 |
+| Style website | Add styling and make both pages visually consistent. | May 7, 2026 |
+| Complete documentation | Finish the README and all project documents. | May 7, 2026 |
+| Test project | Review links, spelling, responsiveness, and organization. | May 7, 2026 |
+| Deploy and submit | Publish with GitHub Pages and submit the repository link. | May 8, 2026 |
 
 ## TAME Risk Analysis
 
-The TAME framework helps organize project risks by thinking about Time, Ability, Money/Materials, and Energy.
+The TAME framework focuses on Time, Ability, Money/Materials, and Energy.
 
 | Risk Area | Possible Risk | Impact | Response |
-|---|---|---|---|
-| Time | Waiting too long to finish the documentation or styling. | The final project could feel rushed or incomplete. | Use a simple task schedule and complete the highest-priority requirements first. |
-| Ability | HTML, CSS, or GitHub Pages issues may slow down progress. | The website may not display correctly or the repository may not be ready for submission. | Keep the website simple, test each page, and focus on meeting the required technical elements. |
-| Money/Materials | No paid tools or outside materials are needed. | Low risk because the project uses free tools. | Use HTML, CSS, Markdown, GitHub, and GitHub Pages only. |
-| Energy | Working on both documentation and code at the same time may feel overwhelming. | The project may lose focus or quality. | Break the work into smaller tasks and complete one deliverable at a time. |
+| --- | --- | --- | --- |
+| Time | Spending too much time adjusting layouts or styling. | The project could feel rushed near the deadline. | Focus on the required parts of the assignment first. |
+| Ability | Running into HTML, CSS, or GitHub Pages issues. | The website may not display correctly. | Keep the website simple and test pages regularly. |
+| Money/Materials | No paid tools or outside resources are required. | Low risk. | Use free tools like HTML, CSS, Markdown, GitHub, and GitHub Pages. |
+| Energy | Working on coding and documentation at the same time. | The project may become overwhelming. | Break the project into smaller tasks and complete one section at a time. |
 
 ## Risk Response Strategy
 
-The main risk response for this project is to reduce uncertainty by keeping the scope realistic. The website is intentionally limited to two pages and does not include JavaScript, databases, booking tools, or live airline data. This keeps the project achievable while still meeting the assignment requirements.
+The main way risk was managed during this project was by keeping the scope realistic. My website was kept simple and limited to two pages on purpose. Advanced features such as JavaScript, databases, and live airline information were not included because they were outside the scope of the assignment.
 
-The project also follows the unofficial project manager mindset from PMUPM by clarifying expectations, identifying risks early, and using a task schedule to stay accountable. Planning before coding helped prevent unnecessary scope expansion and made the final build easier to manage.
+This project also relates to ideas in PMUPM, especially planning ahead, identifying risks early, and staying organized throughout development. Completing the planning documents before building the website helped make the project easier to manage.
 
 ## Key Deliverables
 
@@ -50,11 +48,11 @@ The project also follows the unofficial project manager mindset from PMUPM by cl
 
 ## Quality Checklist
 
-- Both website pages link to each other.
-- Both pages use the same external stylesheet.
-- The website is readable on desktop and mobile screens.
-- The repository has a clear structure.
-- The README explains the project and links to the documentation.
+- Both website pages link to each other correctly.
+- Both pages use the same stylesheet.
+- The website works on desktop and mobile screens.
+- The repository structure is organized clearly.
+- The README explains the purpose of the project.
 - The README includes the live website link.
-- The planning documents connect to the course concepts.
+- The planning documents connect back to course concepts.
 - The final repository is public and ready to submit.
