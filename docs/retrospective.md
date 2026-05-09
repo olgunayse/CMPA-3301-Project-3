@@ -6,23 +6,25 @@
 
 ## What Went Well
 
-The planning process paid off. Writing the scope statement before touching any code forced me to think carefully about what the site needed to be before worrying about how it would look. When I sat down to write the HTML, I already knew exactly what sections were needed on each page, which made the writing process much faster.
+Having already finalized the scope of the site before beginning the development was very beneficial in the process of developing this site and made it easier to refer back to throughout the entire duration of the project since I had a clear idea of what sections were to be included and the site’s intended purpose.
 
-The visual design came together cohesively. Committing to a single color palette and a consistent font style from the beginning meant I did not have to keep changing design decisions midway through the project. The dark, editorial look fit the Caelus Air brand idea well, and the single external stylesheet kept both pages feeling unified.
+In general, I was pleasantly surprised with the outcome of the designs. The previous versions of the site did not really convey the intended feel of an “airline” site. They felt much more like a generic luxury brand’s website because I used to have an idea of the colors and fonts I wanted to use; unfortunately, those designs did not really match the airline theme I was going for. As I started adding things like a flight search area, route pricing, and airline ratings, I was finally able to visualize what the finished website was supposed to look like.
 
-The Work Breakdown Structure also helped me stay on track. Breaking the project into numbered tasks with due dates made the timeline feel more manageable. I could see my progress clearly, which made it easier to know what still needed to be finished before the deadline.
+I also think keeping the same colors and fonts throughout the whole website helped everything feel more complete. Using one stylesheet made the pages feel connected instead of looking like two separate projects.
+
+Another thing that went well was the organization. Keeping the docs folder separated from the website files made the repository easier to manage, especially toward the end when there were a lot of files and revisions.
 
 ## What Went Wrong
 
-I introduced a CSS issue early on. During the first round of styling, I accidentally made the navigation link color too close to the dark background. This slipped by my initial review because I was focused more on the page layout than the small details. I caught it later when I opened the site in a fresh browser window and noticed the links were difficult to see.
+I underestimated how long it would take to develop a design and got a lot of the HTML structure built, but things like spacing/layout/colors/sectioning were all adjusted over time, taking much longer than expected.
 
-Estimating time for the CSS was harder than expected. I underestimated how long it would take to fine-tune spacing, typography, and responsive behavior. The visual polish pass took longer than the task schedule predicted. In future projects, I would add a time buffer specifically for design changes and testing.
+I made multiple changes to the homepage layout throughout the project, as I didn't feel the version of the homepage matched the concept of what an airline's homepage would look like (some looked very simple, and some were too complicated for a beginner level). Finding a balance between displaying an image similar to a 'real' airline but still being an easy concept for an average user to understand took the most overall time.
 
-I also realized that deployment should not be saved for the very end. GitHub Pages usually works smoothly, but if it had failed, I would have had limited time to troubleshoot it before the deadline.
+Another thing that affected the entire project was that I left most of the final polishing too late. The website was complete way before the deadline, but the amount of time spent on smaller adjustments and double checking everything was longer than originally anticipated.
 
 ## What I Would Do Differently
 
-I would build in a dedicated testing day. My current plan had testing included near the end, but in practice, it happened quickly after the main files were already finished. A separate review day would give me more time to test both pages, check mobile sizing, review the README, and make sure the documentation links work correctly.
+I would build in a dedicated testing day. A separate review day would give me more time to test both pages, check mobile sizing, review the README, and make sure the documentation links work correctly.
 
 I would also start GitHub Pages deployment earlier. In a future project, I would deploy a basic placeholder page on the first day and update it throughout the project. That way, the live link would already be working before the final submission day.
 
@@ -30,6 +32,6 @@ Finally, I would write the retrospective in real time. I had to think back to re
 
 ## Final Reflection
 
-This project helped me understand how a small website can still be treated like a real managed project. The TAME risk analysis felt simple at first, but it connected directly to the problems I actually faced, especially time management, CSS troubleshooting, and deployment concerns.
+This project helped me understand how even smaller websites can still benefit from being treated like managed projects. The TAME risk analysis might not seem complicated, but I related back to it at several points in my project every time I faced issues, including time management, CSS troubleshooting, and deployment concerns.
 
-The project also reinforced the PMUPM idea that planning and risk management reduce confusion later in the process. Creating the scope statement and TAME analysis early helped keep the project organized and prevented unnecessary scope expansion. The biggest lesson I learned is that planning does not slow the project down. It makes the building process clearer, faster, and less stressful.
+This project has also shown me the impact of PMUPM on how planning and management of risk reduces the amount of confusion later in the project. By creating the project scope statement and TAME risk analysis earlier in the project, it has helped with organization and limited scope-creep. My biggest takeaway from this experience is that planning does not decrease the speed of completion, but rather provides a clearer picture of how/what to execute, and provides less stress than trying to build without prior thought out plans.
