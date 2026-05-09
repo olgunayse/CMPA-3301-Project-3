@@ -1,8 +1,7 @@
 # Caelus Air Official Website
 
-Caelus Air is a fictional airline website created for CMPA 3301 Project 03. The project has both project management documentation and a two-page prototype website, which demonstrates how a digital project can go from the planning phase to becoming a finished technical artifact.
-
-The website is very simple in terms of branding an airline based on adventure, comfort, and creating lasting memories. The website consists of a homepage and an about page with a shared stylesheet, so all pages appear the same way.
+The website was created for the CMPA 3301 Project 03 assignment and combines both project management documentation and a prototype website build. This project is designed to record the process of creating a full website project from the beginning, including its planning, organization, and development process. 
+The project is a fictional airline called Caelus Air. The website was built on themes of adventure, comfortable travel, and unforgettable destinations. The website’s repository contains pages for the home page, about, and a common stylesheet for visual consistency across these pages.
 
 ## Live Website
 
