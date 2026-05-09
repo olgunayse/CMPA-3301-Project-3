@@ -311,12 +311,6 @@ blockquote {
   color: rgba(201, 169, 110, 0.5);
   letter-spacing: 1px;
 }
-  text-align: center;
-}
-
-.center-section p {
-  margin-bottom: 20px;
-}
 
 footer {
   text-align: center;
@@ -337,7 +331,25 @@ footer p {
   }
 
   .nav-links {
-    gap: 20px;
+    gap: 12px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .why-grid div {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid rgba(201, 169, 110, 0.25);
+    padding-top: 20px;
+  }
+
+  .why-grid div:first-child {
+    border-top: none;
+    padding-top: 0;
   }
 
   h1 {
